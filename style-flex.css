@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 5px;
+  padding: 5px;
+}
+
+.block {
+  border: 1px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Верхній блок */
+.block1 {
+  background: #cfe2f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 60px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex: 1;
+  gap: 5px;
+  min-height: 0;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 0 0 20%;
+}
+
+.block2 {
+  background: #e2efda;
+  flex: 0 0 120px;
+}
+
+.block5 {
+  background: #fce5cd;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1 1 60%;
+  min-height: 0;
+}
+
+.block3 {
+  background: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.block6 {
+  background: #e2efda;
+  flex: 0 0 40px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20%;
+}
+
+.block4 {
+  background: #fce5cd;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.block7 {
+  background: #cfe2f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 60px;
+}
+
+.inner-box {
+  background: #fff;
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
